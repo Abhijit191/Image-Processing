@@ -1,0 +1,28 @@
+step 1: get a crap-load of faces.
+step 2: Maake them all black and white (turning into grey scale)
+step 3: Train the algorithm to detect faces.
+
+task1- install openCV that will be pip install opencv-python
+task2- To import cv2 library 
+task3- load some pre-trained data on face frontals from opencv
+	- cv.CascadeClassifier('pre-trained data.xml file')
+	-above line is for detector
+ 
+opencv is open source computer vision library 
+
+1. haar cascade is an algorithm to detect faces
+2. haar features include 
+    a. edge features
+    b. line features
+    c. four rectangle features
+Now lets Train a face detector
+1. Start with our tranning data
+    a. Faces(supervised learning) that is possitive image
+    b. Non-faces(un-supervised learning) and this will be negative image
+2. We gotta test every haar features
+    -using all the haar features until we get the one which actually match a face.
+    - every type, every size, every location(and every haar features gives us a number, Right or Wrong).
+    -whichever haar features matches the tranning images closest in our first winner.
+3. the cascade
+how the haar cascade visualization in real time 
+https://www.youtube.com/watch?v=hPCTwx0qf4
