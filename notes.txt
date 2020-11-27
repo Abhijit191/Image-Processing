@@ -1,4 +1,0 @@
-step 1: find faces in our image(haar algorithm).
-step 2: find smiles within those faces(haar algo.).
-step 3: label the face if it's smiling.
-
